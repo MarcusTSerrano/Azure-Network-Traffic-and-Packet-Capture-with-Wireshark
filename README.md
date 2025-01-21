@@ -58,10 +58,7 @@ Authentication type: Username/Password
 </p>
 
 
-
-
-
-
+<h2>Install Wireshark and observe ICMP traffic</h2>
 
 
 ![image](https://github.com/user-attachments/assets/dd628ac2-6afa-4613-96d2-98a47715df2e)
