@@ -20,33 +20,297 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
+- Part 1 Create a Windows and Linux VM within the same Network
 - Step 2
 - Step 3
 - Step 4
 
-<h2>Actions and Observations</h2>
+<h2>Create a Windows and Linux VM within the same Network</h2>
+
+![image](https://github.com/user-attachments/assets/99266f53-3cd9-405c-abd8-8cca2b3b0ee8)
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Create a Resource Group
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+
+![image](https://github.com/user-attachments/assets/253a32e3-39ba-47ba-8790-a69b873a3740)
+
+![image](https://github.com/user-attachments/assets/152266a7-02f8-4f6d-8cb7-0ab399f0e805)
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Create a Windows 10 Virtual Machine (VM)
+  </p>
+Select the previously created Resource Group
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Allow it to create a new Virtual Network (Vnet) and Subnet
 </p>
-<br />
+
+![image](https://github.com/user-attachments/assets/53ba0a83-9cdd-4d0c-b009-a68c2bb35466)
+
+![image](https://github.com/user-attachments/assets/ade3caf8-bbd0-4a94-92c6-885087c677db)
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Create a Linux (Ubuntu) VM
+  </p>
+Select the previously created Resource Group and Virtual Network—the Virtual Network ‼️MUST BE THE SAME‼️
 </p>
+Authentication type: Username/Password
+</p>
+
+
+
+
+
+
+
+
+![image](https://github.com/user-attachments/assets/dd628ac2-6afa-4613-96d2-98a47715df2e)
+
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Lorem ipsum dolor sit amet, 
 </p>
-<br />
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
+
+
+<p>
+Lorem ipsum dolor sit amet, 
+</p>
