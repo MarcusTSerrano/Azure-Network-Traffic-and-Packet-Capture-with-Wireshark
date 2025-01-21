@@ -64,37 +64,49 @@ Authentication type: Username/Password
 ![image](https://github.com/user-attachments/assets/dd628ac2-6afa-4613-96d2-98a47715df2e)
 
 <p>
-Lorem ipsum dolor sit amet, 
+Use Remote Desktop to connect to your Windows 10 Virtual Machine
+</p>
+
+![image](https://github.com/user-attachments/assets/e4c33811-b4bf-4f6a-b14b-12343fe1574e)
+
+<p>
+Within your Windows 10 Virtual Machine, Install Wireshark
+</p>
+
+![image](https://github.com/user-attachments/assets/44b8c6f6-2a87-434b-be8a-2e69b2da858c)
+
+<p>
+Open Wireshark and start packet capture
+</p>
+
+![image](https://github.com/user-attachments/assets/c3f4649a-c51d-474b-88df-e4f87e6df23b)
+
+<p>
+Within Wireshark, filter for ICMP traffic only
+</p>
+
+![image](https://github.com/user-attachments/assets/ecd54835-92a2-47bd-a2f5-d4fc8954e4b0)
+
+![image](https://github.com/user-attachments/assets/83e9a989-6b30-4a1b-8040-4b057abe8a29)
+
+<p>
+Retrieve the private IP address of the Ubuntu VM (linux-vm) and attempt to ping it from within the Windows 10 VM
+</p>
+
+![image](https://github.com/user-attachments/assets/799a4c7d-8b38-4b66-a14e-3ba355555f75)
+
+![image](https://github.com/user-attachments/assets/23b703e3-6cbe-4ea6-baf5-24fce511172d)
+
+<p>
+Observe ping requests and replies within WireShark
 </p>
 
 
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
+<h2>Configuring a Firewall [Network Security Group</h2>
 
 
 <p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
+Configuring a Firewall [Network Security Group
 </p>
 
 
