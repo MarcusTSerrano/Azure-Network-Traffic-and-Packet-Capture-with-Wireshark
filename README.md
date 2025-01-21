@@ -21,9 +21,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>High-Level Steps</h2>
 
 - Part 1 Create a Windows and Linux VM within the same Network
-- Step 2 Install Wireshark and observe ICMP traffic
-- Step 3 Configuring a Firewall (Network Security Group)
-- Step 4 
+- Part 2 Install Wireshark and observe ICMP traffic
+- Part 3 Configuring a Firewall (Network Security Group)
 
 <h2>Create a Windows and Linux VM within the same Network</h2>
 
