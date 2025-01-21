@@ -21,9 +21,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>High-Level Steps</h2>
 
 - Part 1 Create a Windows and Linux VM within the same Network
-- Step 2
-- Step 3
-- Step 4
+- Step 2 Install Wireshark and observe ICMP traffic
+- Step 3 Configuring a Firewall (Network Security Group)
+- Step 4 
 
 <h2>Create a Windows and Linux VM within the same Network</h2>
 
@@ -102,52 +102,77 @@ Observe ping requests and replies within WireShark
 </p>
 
 
-<h2>Configuring a Firewall [Network Security Group</h2>
+<h2>Configuring a Firewall (Network Security Group)</h2>
 
+![image](https://github.com/user-attachments/assets/dfe2c86b-f0f3-4324-b817-2fe602778174)
 
 <p>
-Configuring a Firewall [Network Security Group
+Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM (ping 10.0.0.5 -t)
+</p>
+
+![image](https://github.com/user-attachments/assets/3019ace2-4b2f-4188-8cb9-e99852272729)
+
+![image](https://github.com/user-attachments/assets/4b42e48e-738f-4d3a-8520-6db542fc7936)
+
+<p>
+Open the Network Security Group your Ubuntu VM is using, create a new inbound rule and disable incoming (inbound) ICMP traffic
+</p>
+
+![image](https://github.com/user-attachments/assets/7da46811-afeb-4974-af22-7f43afd7eec5)
+
+<p>
+Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity
+</p>
+
+![image](https://github.com/user-attachments/assets/9328ad6a-8078-4be3-ab9f-b2e11330b507)
+
+<p>
+Re-enable ICMP traffic for the Network Security Group your Ubuntu VM is
+</p>
+
+![image](https://github.com/user-attachments/assets/1379d4df-3b6d-4bc1-a675-116806b65b85)
+
+<p>
+Back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity
 </p>
 
 
+<h2>Observe SSH Traffic</h2>
+
+
+![image](https://github.com/user-attachments/assets/b232af8c-2b6b-45ed-921d-3dd4aab21e89)
+
 <p>
-Lorem ipsum dolor sit amet, 
+Back in Wireshark, start a packet capture up, Filter for SSH traffic only
+</p>
+
+![image](https://github.com/user-attachments/assets/07065b59-c34d-4dd3-8459-c81f3cbdfc7a)
+
+![image](https://github.com/user-attachments/assets/274da6b7-55f2-4055-af23-cef47b87cb4c)
+
+<p>
+From your Windows 10 VM, “SSH into” your Ubuntu Virtual Machine (via its private IP address)
+</p>
+
+![image](https://github.com/user-attachments/assets/005b4d01-1c55-4be1-baf0-2d598a35393b)
+
+![image](https://github.com/user-attachments/assets/c475af7b-eac2-4f48-b3e4-4f42f62528c3)
+
+![image](https://github.com/user-attachments/assets/1ff8ec33-02ea-49f1-88fe-7233daaaa997)
+
+<p>
+Type commands (username, pwd, etc) into the linux SSH connection and observe SSH traffic spam in WireShark
+</p>
+
+![image](https://github.com/user-attachments/assets/6d543f33-b05d-4f77-a6fc-0bffc65925c2)
+
+<p>
+Exit the SSH connection by typing ‘exit’ and pressing [Enter]
 </p>
 
 
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
+<h2>Observe DHCP Traffic</h2>
 
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
 
 
 <p>
