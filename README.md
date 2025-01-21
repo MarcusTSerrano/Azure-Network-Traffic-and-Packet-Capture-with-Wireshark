@@ -174,177 +174,58 @@ Exit the SSH connection by typing ‘exit’ and pressing [Enter]
 <h2>Observe DHCP Traffic</h2>
 
 
+![image](https://github.com/user-attachments/assets/7a9ceb77-147b-40d3-a2df-741c69443d8a)
 
 <p>
-Lorem ipsum dolor sit amet, 
+Back in Wireshark, filter for DHCP traffic only
+</p>
+
+![image](https://github.com/user-attachments/assets/875f1031-9c31-44dd-9194-ce3fad542a15)
+
+<p>
+Open PowerShell as admin and run: ipconfig /renew
+</p>
+
+![image](https://github.com/user-attachments/assets/c444e1a8-d354-49d3-9cc0-2acf540f6c09)
+
+<p>
+Observe the DHCP traffic appearing in WireShark
 </p>
 
 
+<h2>Observe DNS Traffic</h2>
+
+![image](https://github.com/user-attachments/assets/26b5d7c2-56b5-45db-9832-35d74469f2bb)
+
 <p>
-Lorem ipsum dolor sit amet, 
+Back in Wireshark, filter for DNS traffic only
+</p>
+
+![image](https://github.com/user-attachments/assets/a52e9b93-6cb2-4862-8f12-38096a4c207e)
+
+<p>
+From your Windows 10 VM within a command line, use nslookup to see what google.com
+</p>
+
+![image](https://github.com/user-attachments/assets/4a534249-815c-4df2-a1a7-b5eb0b51551b)
+
+<p>
+Observe the DNS traffic being show in WireShark
 </p>
 
 
+<h2>Observe RDP Traffic</h2>
+
+
+![image](https://github.com/user-attachments/assets/22e37cd1-5df8-4bdf-8af1-9fda1d435698)
+
+
 <p>
-Lorem ipsum dolor sit amet, 
+Back in Wireshark, filter for RDP traffic only (tcp.port == 3389)
 </p>
 
+![image](https://github.com/user-attachments/assets/d04adb63-877b-4cfd-9bb3-355b6ebac0b1)
 
 <p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
-</p>
-
-
-<p>
-Lorem ipsum dolor sit amet, 
+Observe the immediate non-stop spam of traffic, this is because the RDP (protocol) is constantly showing you a live stream from one computer to another, therefor traffic is always being transmitted
 </p>
